@@ -106,7 +106,6 @@ public class TicTacToeGame {
 		blocksData[0][0].setContents("X");
 		Logger.log("manipulates");
 		updateBlock(0,0);
-		Logger.log("updates");
 		player = "2";
 		if(movesLeft<7) {
 		    if((blocksData[0][0].getContents().equals(blocksData[0][1].getContents()) &&
@@ -125,7 +124,6 @@ public class TicTacToeGame {
 		blocksData[0][1].setContents("X");
 		Logger.log("manipulates");
 		updateBlock(0,1);
-		Logger.log("updates");
 		player = "2";
 		if(movesLeft<7) {
 		    if((blocksData[0][1].getContents().equals(blocksData[0][0].getContents()) &&
@@ -142,7 +140,6 @@ public class TicTacToeGame {
 		blocksData[0][2].setContents("X");
 		Logger.log("manipulates");
 		updateBlock(0,2);
-		Logger.log("updates");
 		player = "2";
 		if(movesLeft<7) {
 		    if((blocksData[0][2].getContents().equals(blocksData[0][1].getContents()) &&
@@ -162,7 +159,6 @@ public class TicTacToeGame {
 		Logger.log("manipulates");
 		updateBlock(1,0);
 		updateBlock(0,0);
-		Logger.log("updates");
 		player = "2";
 		if(movesLeft<7) {
 		    if((blocksData[1][0].getContents().equals(blocksData[1][1].getContents()) &&
@@ -180,7 +176,6 @@ public class TicTacToeGame {
 		Logger.log("manipulates");
 		updateBlock(1,1);
 		updateBlock(0,1);
-		Logger.log("updates");
 		player = "2";
 		if(movesLeft<7) {
 		    if((blocksData[1][1].getContents().equals(blocksData[1][0].getContents()) &&
@@ -202,7 +197,6 @@ public class TicTacToeGame {
 		Logger.log("manipulates");
 		updateBlock(1,2);
 		updateBlock(0,2);
-		Logger.log("updates");
 		player = "2";
 		if(movesLeft<7) {
 		    if((blocksData[1][2].getContents().equals(blocksData[0][2].getContents()) &&
@@ -220,7 +214,6 @@ public class TicTacToeGame {
 		Logger.log("manipulates");
 		updateBlock(2,0);
 		updateBlock(1,0);
-		Logger.log("updates");
 		player = "2";
 		if(movesLeft<7) {
 		    if((blocksData[2][0].getContents().equals(blocksData[2][1].getContents()) &&
@@ -240,7 +233,6 @@ public class TicTacToeGame {
 		Logger.log("manipulates");
 		updateBlock(2,1);
 		updateBlock(1,1);
-		Logger.log("updates");
 		player = "2";
 		if(movesLeft<7) {
 		    if((blocksData[2][1].getContents().equals(blocksData[2][0].getContents()) &&
@@ -258,7 +250,6 @@ public class TicTacToeGame {
 		Logger.log("manipulates");
 		updateBlock(2,2);
 		updateBlock(1,2);
-		Logger.log("updates");
 		player = "2";
 		if(movesLeft<7) {
 		    if((blocksData[2][2].getContents().equals(blocksData[2][1].getContents()) &&
@@ -280,7 +271,6 @@ public class TicTacToeGame {
 		blocksData[0][0].setContents("O");
 		Logger.log("manipulates");
 		updateBlock(0,0);
-		Logger.log("updates");
 		player = "1";
 		if(movesLeft<7) {
 		    if((blocksData[0][0].getContents().equals(blocksData[0][1].getContents()) &&
@@ -299,7 +289,6 @@ public class TicTacToeGame {
 		blocksData[0][1].setContents("O");
 		Logger.log("manipulates");
 		updateBlock(0,1);
-		Logger.log("updates");
 		player = "1";
 		if(movesLeft<7) {
 		    if((blocksData[0][1].getContents().equals(blocksData[0][0].getContents()) &&
@@ -316,7 +305,6 @@ public class TicTacToeGame {
 		blocksData[0][2].setContents("O");
 		Logger.log("manipulates");
 		updateBlock(0,2);
-		Logger.log("updates");
 		player = "1";
 		if(movesLeft<7) {
 		    if((blocksData[0][2].getContents().equals(blocksData[0][1].getContents()) &&
@@ -336,7 +324,6 @@ public class TicTacToeGame {
 		Logger.log("manipulates");
 		updateBlock(1,0);
 		updateBlock(0,0);
-		Logger.log("updates");
 		player = "1";
 		if(movesLeft<7) {
 		    if((blocksData[1][0].getContents().equals(blocksData[1][1].getContents()) &&
@@ -354,7 +341,6 @@ public class TicTacToeGame {
 		Logger.log("manipulates");
 		updateBlock(1,1);
 		updateBlock(0,1);
-		Logger.log("updates");
 		player = "1";
 		if(movesLeft<7) {
 		    if((blocksData[1][1].getContents().equals(blocksData[1][0].getContents()) &&
@@ -376,7 +362,6 @@ public class TicTacToeGame {
 		Logger.log("manipulates");
 		updateBlock(1,2);
 		updateBlock(0,2);
-		Logger.log("updates");
 		player = "1";
 		if(movesLeft<7) {
 		    if((blocksData[1][2].getContents().equals(blocksData[0][2].getContents()) &&
@@ -394,7 +379,6 @@ public class TicTacToeGame {
 		Logger.log("manipulates");
 		updateBlock(2,0);
 		updateBlock(1,0);
-		Logger.log("updates");
 		player = "1";
 		if(movesLeft<7) {
 		    if((blocksData[2][0].getContents().equals(blocksData[2][1].getContents()) &&
@@ -414,7 +398,6 @@ public class TicTacToeGame {
 		Logger.log("manipulates");
 		updateBlock(2,1);
 		updateBlock(1,1);
-		Logger.log("updates");
 		player = "1";
 		if(movesLeft<7) {
 		    if((blocksData[2][1].getContents().equals(blocksData[2][0].getContents()) &&
@@ -432,7 +415,6 @@ public class TicTacToeGame {
 		Logger.log("manipulates");
 		updateBlock(2,2);
 		updateBlock(1,2);
-		Logger.log("updates");
 		player = "1";
 		if(movesLeft<7) {
 		    if((blocksData[2][2].getContents().equals(blocksData[2][1].getContents()) &&
@@ -461,6 +443,7 @@ public class TicTacToeGame {
     protected void updateBlock(int row, int column) {
 	blocks[row][column].setText(blocksData[row][column].getContents());
 	blocks[row][column].setEnabled(blocksData[row][column].getIsLegalMove());
+		Logger.log("updates");
     }
 
     /**
@@ -485,7 +468,6 @@ public class TicTacToeGame {
                 blocksData[row][column].reset();
 		blocksData[row][column].setIsLegalMove(true);
 		updateBlock(row,column);
-		Logger.log("updates");
             }
         }
         player = "1";
